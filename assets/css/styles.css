@@ -18,7 +18,7 @@ src: url('assets/fonts/IRANSans-web.ttf'),
 }
 
 html{
-	font: normal 16px sans-serif;
+	font: normal 16px iransans;
 	color: #555;
 	font-family: 'Sans' !important;
 }
@@ -202,7 +202,7 @@ header nav li:last-child{
 }
 
 .hero h3{
-	font: normal 20px 'Sans';
+	font: normal 20px iransans;
 	margin-bottom: 20px;
 }
 
@@ -389,7 +389,7 @@ header nav li:last-child{
     flex: 1;
     margin-right: 30px;
     font-size: 18px;
-    font-family: 'Sans';
+    font-family: iransans;
     direction: ltr;
 }
 
