@@ -20,7 +20,7 @@ src: url('assets/fonts/IRANSans-web.ttf'),
 html{
 	font: normal 16px iransans;
 	color: #555;
-	font-family: 'Sans' !important;
+	font-family: iransans !important;
 }
 
 ul, nav{
