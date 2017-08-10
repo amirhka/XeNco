@@ -3,11 +3,11 @@
 -------------*/
 
 @font-face {
-font-family: Sans;
-src: url('assets/fonts/IRANSans-web.ttf'),
-	 url('assets/fonts/IRANSans-web.woff'),
-	 url('assets/fonts/IRANSans-web.woff2'),
-     url('IRANSans-web.eot'); /* IE9+ */
+  font-family: iransans;
+  src: url('../fonts/IRANSans-web.woff') format('woff'),
+       url('../fonts/IRANSans-web.woff2') format('woff2'),
+       url('../fonts/IRANSans-web.ttf') format('truetype');
+
 }
 
 *{
