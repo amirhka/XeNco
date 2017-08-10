@@ -3,11 +3,9 @@
 -------------*/
 
 @font-face {
-  font-family: iransans;
-  src: url('../fonts/IRANSans-web.woff') format('woff'),
-       url('../fonts/IRANSans-web.woff2') format('woff2'),
-       url('../fonts/IRANSans-web.ttf') format('truetype');
-
+    font-family: IRANSans;
+    src: url(../fonts/IRANSansWeb.woff) format('woff'), url(../fonts/IRANSansWeb.ttf) format('truetype');
+    font-weight: 400
 }
 
 *{
@@ -18,9 +16,8 @@
 }
 
 html{
-	font: normal 16px 'iransans';
+	font: normal 16px IRANSans;
 	color: #555;
-	font-family: 'iransans' !important;
 }
 
 ul, nav{
@@ -83,7 +80,7 @@ section{
 section h3.title{
 	color: #ecf0f1;
 	text-transform: capitalize; 
-	font: bold 32px 'iransans';
+	font: bold 32px IRANSans;
 	margin-bottom: 35px;
 	text-align: center;
 }
@@ -193,7 +190,7 @@ header nav li{
 }
 
 .hero h3{
-	font: normal 20px 'iransans';
+	font: normal 20px IRANSans;
 	margin-bottom: 20px;
 }
 
@@ -380,7 +377,7 @@ header nav li{
     flex: 1;
     margin-right: 30px;
     font-size: 18px;
-    font-family: 'iransans';
+    font-family: IRANSans;
     direction: ltr;
 }
 
