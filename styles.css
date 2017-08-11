@@ -8,6 +8,15 @@
     font-weight: 400
 }
 
+@font-face {
+    font-family: 'b_shekariregular';
+    src: url('b.shekari-webfont.woff2') format('woff2'),
+         url('b.shekari-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -16,7 +25,7 @@
 }
 
 html{
-	font: normal 16px 'Lalezar', cursive;
+	font: normal 16px 'b_shekariregular';
 	color: #555;
 }
 
@@ -80,7 +89,7 @@ section{
 section h3.title{
 	color: #ecf0f1;
 	text-transform: capitalize; 
-	font: bold 32px 'Lalezar', cursive;
+	font: bold 32px 'b_shekariregular';
 	margin-bottom: 35px;
 	text-align: center;
 }
@@ -190,7 +199,7 @@ header nav li{
 }
 
 .hero h3{
-	font: normal 20px 'Lalezar', cursive;
+	font: normal 20px 'b_shekariregular';
 	margin-bottom: 20px;
 }
 
@@ -377,7 +386,7 @@ header nav li{
     flex: 1;
     margin-right: 30px;
     font-size: 18px;
-    font-family: 'Lalezar', cursive;
+    font-family: 'b_shekariregular';
     direction: ltr;
 }
 
