@@ -10,7 +10,7 @@
 }
 
 html{
-	font: normal 16px 'IranianSansRegular';
+	font: normal 16px 'XMYekanRegular';
 	color: #555;
 }
 
@@ -74,7 +74,8 @@ section{
 section h3.title{
 	color: #ecf0f1;
 	text-transform: capitalize; 
-	font: bold 32px 'IranianSansRegular';
+	font-weight: bold;
+	font-size: 32px;
 	margin-bottom: 35px;
 	text-align: center;
 }
@@ -184,7 +185,8 @@ header nav li{
 }
 
 .hero h3{
-	font: normal 20px 'IranianSansRegular';
+	font-weight: normal;
+	font-size: 20px;
 	margin-bottom: 20px;
 }
 
@@ -371,7 +373,7 @@ header nav li{
     flex: 1;
     margin-right: 30px;
     font-size: 18px;
-    font-family: 'IranianSansRegular';
+    font-family: 'XMYekanRegular';
     direction: ltr;
 }
 
